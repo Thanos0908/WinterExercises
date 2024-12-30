@@ -1,9 +1,5 @@
 package winter.exercises.aueb.cf;
 // A simple program with 2 methods to reserve and cancel reservation of seats in a theatre
-
-
-import java.util.Scanner;
-
 public class ExerciseFive {
     //create a private boolean to be accessed from every method in the class
     private static boolean[][] seats = new boolean[30][12];
@@ -41,15 +37,5 @@ public class ExerciseFive {
         }
     }
 
-    // method to display the seat availability
-    public static void seatAvailability() {
-        for (int i = 0; i < 30; i++) {
-            for (int j = 0; j < 12; j++) {
-                System.out.print(seats[i][j] + " ");
-            }
-            System.out.println();
-
-        }
-    }
 
 }
